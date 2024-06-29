@@ -1,0 +1,70 @@
+body {
+background-image: url('salad.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+a {
+text-decoration: none;
+font-size:30px;
+color:black;
+}
+
+.text {
+text-align:center;
+font-size: 50px;
+}
+
+.n {
+display:flex;
+justify-content:center;
+list-style-type: none;
+}
+
+
+li {
+padding:10px;
+border: 5px solid black;
+background-color: yellow;
+
+}
+
+a:hover {
+color: red;
+}
+
+.title {
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Rouge Script', cursive;
+    font-weight: bold;
+}
+
+.para1{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    width: 45%;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(232, 232, 115);
+}
+
+img {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.bigbox {
+    display: flex;
+}
+
+.box1:hover {
+    box-shadow: 10px 10px;
+}
